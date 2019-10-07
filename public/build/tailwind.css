@@ -700,11 +700,15 @@ video {
 }
 
 .bg-black {
-  background-color: #000;
+  background-color: #0d0d0d;
 }
 
 .bg-white {
   background-color: #fff;
+}
+
+.bg-brand {
+  background-color: #ff5900;
 }
 
 .bg-gray-100 {
@@ -1072,11 +1076,15 @@ video {
 }
 
 .hover\:bg-black:hover {
-  background-color: #000;
+  background-color: #0d0d0d;
 }
 
 .hover\:bg-white:hover {
   background-color: #fff;
+}
+
+.hover\:bg-brand:hover {
+  background-color: #ff5900;
 }
 
 .hover\:bg-gray-100:hover {
@@ -1444,11 +1452,15 @@ video {
 }
 
 .focus\:bg-black:focus {
-  background-color: #000;
+  background-color: #0d0d0d;
 }
 
 .focus\:bg-white:focus {
   background-color: #fff;
+}
+
+.focus\:bg-brand:focus {
+  background-color: #ff5900;
 }
 
 .focus\:bg-gray-100:focus {
@@ -1896,11 +1908,15 @@ video {
 }
 
 .border-black {
-  border-color: #000;
+  border-color: #0d0d0d;
 }
 
 .border-white {
   border-color: #fff;
+}
+
+.border-brand {
+  border-color: #ff5900;
 }
 
 .border-gray-100 {
@@ -2268,11 +2284,15 @@ video {
 }
 
 .hover\:border-black:hover {
-  border-color: #000;
+  border-color: #0d0d0d;
 }
 
 .hover\:border-white:hover {
   border-color: #fff;
+}
+
+.hover\:border-brand:hover {
+  border-color: #ff5900;
 }
 
 .hover\:border-gray-100:hover {
@@ -2640,11 +2660,15 @@ video {
 }
 
 .focus\:border-black:focus {
-  border-color: #000;
+  border-color: #0d0d0d;
 }
 
 .focus\:border-white:focus {
   border-color: #fff;
+}
+
+.focus\:border-brand:focus {
+  border-color: #ff5900;
 }
 
 .focus\:border-gray-100:focus {
@@ -3610,7 +3634,11 @@ video {
 }
 
 .font-sans {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Barlow, sans-serif;
+}
+
+.font-alt {
+  font-family: Poppins, sans-serif;
 }
 
 .font-serif {
@@ -5858,23 +5886,23 @@ video {
 }
 
 .placeholder-black::-webkit-input-placeholder {
-  color: #000;
+  color: #0d0d0d;
 }
 
 .placeholder-black::-moz-placeholder {
-  color: #000;
+  color: #0d0d0d;
 }
 
 .placeholder-black:-ms-input-placeholder {
-  color: #000;
+  color: #0d0d0d;
 }
 
 .placeholder-black::-ms-input-placeholder {
-  color: #000;
+  color: #0d0d0d;
 }
 
 .placeholder-black::placeholder {
-  color: #000;
+  color: #0d0d0d;
 }
 
 .placeholder-white::-webkit-input-placeholder {
@@ -5895,6 +5923,26 @@ video {
 
 .placeholder-white::placeholder {
   color: #fff;
+}
+
+.placeholder-brand::-webkit-input-placeholder {
+  color: #ff5900;
+}
+
+.placeholder-brand::-moz-placeholder {
+  color: #ff5900;
+}
+
+.placeholder-brand:-ms-input-placeholder {
+  color: #ff5900;
+}
+
+.placeholder-brand::-ms-input-placeholder {
+  color: #ff5900;
+}
+
+.placeholder-brand::placeholder {
+  color: #ff5900;
 }
 
 .placeholder-gray-100::-webkit-input-placeholder {
@@ -7718,23 +7766,23 @@ video {
 }
 
 .focus\:placeholder-black:focus::-webkit-input-placeholder {
-  color: #000;
+  color: #0d0d0d;
 }
 
 .focus\:placeholder-black:focus::-moz-placeholder {
-  color: #000;
+  color: #0d0d0d;
 }
 
 .focus\:placeholder-black:focus:-ms-input-placeholder {
-  color: #000;
+  color: #0d0d0d;
 }
 
 .focus\:placeholder-black:focus::-ms-input-placeholder {
-  color: #000;
+  color: #0d0d0d;
 }
 
 .focus\:placeholder-black:focus::placeholder {
-  color: #000;
+  color: #0d0d0d;
 }
 
 .focus\:placeholder-white:focus::-webkit-input-placeholder {
@@ -7755,6 +7803,26 @@ video {
 
 .focus\:placeholder-white:focus::placeholder {
   color: #fff;
+}
+
+.focus\:placeholder-brand:focus::-webkit-input-placeholder {
+  color: #ff5900;
+}
+
+.focus\:placeholder-brand:focus::-moz-placeholder {
+  color: #ff5900;
+}
+
+.focus\:placeholder-brand:focus:-ms-input-placeholder {
+  color: #ff5900;
+}
+
+.focus\:placeholder-brand:focus::-ms-input-placeholder {
+  color: #ff5900;
+}
+
+.focus\:placeholder-brand:focus::placeholder {
+  color: #ff5900;
 }
 
 .focus\:placeholder-gray-100:focus::-webkit-input-placeholder {
@@ -9801,11 +9869,15 @@ video {
 }
 
 .text-black {
-  color: #000;
+  color: #0d0d0d;
 }
 
 .text-white {
   color: #fff;
+}
+
+.text-brand {
+  color: #ff5900;
 }
 
 .text-gray-100 {
@@ -10173,11 +10245,15 @@ video {
 }
 
 .hover\:text-black:hover {
-  color: #000;
+  color: #0d0d0d;
 }
 
 .hover\:text-white:hover {
   color: #fff;
+}
+
+.hover\:text-brand:hover {
+  color: #ff5900;
 }
 
 .hover\:text-gray-100:hover {
@@ -10545,11 +10621,15 @@ video {
 }
 
 .focus\:text-black:focus {
-  color: #000;
+  color: #0d0d0d;
 }
 
 .focus\:text-white:focus {
   color: #fff;
+}
+
+.focus\:text-brand:focus {
+  color: #ff5900;
 }
 
 .focus\:text-gray-100:focus {
@@ -11435,11 +11515,15 @@ video {
   }
 
   .sm\:bg-black {
-    background-color: #000;
+    background-color: #0d0d0d;
   }
 
   .sm\:bg-white {
     background-color: #fff;
+  }
+
+  .sm\:bg-brand {
+    background-color: #ff5900;
   }
 
   .sm\:bg-gray-100 {
@@ -11807,11 +11891,15 @@ video {
   }
 
   .sm\:hover\:bg-black:hover {
-    background-color: #000;
+    background-color: #0d0d0d;
   }
 
   .sm\:hover\:bg-white:hover {
     background-color: #fff;
+  }
+
+  .sm\:hover\:bg-brand:hover {
+    background-color: #ff5900;
   }
 
   .sm\:hover\:bg-gray-100:hover {
@@ -12179,11 +12267,15 @@ video {
   }
 
   .sm\:focus\:bg-black:focus {
-    background-color: #000;
+    background-color: #0d0d0d;
   }
 
   .sm\:focus\:bg-white:focus {
     background-color: #fff;
+  }
+
+  .sm\:focus\:bg-brand:focus {
+    background-color: #ff5900;
   }
 
   .sm\:focus\:bg-gray-100:focus {
@@ -12631,11 +12723,15 @@ video {
   }
 
   .sm\:border-black {
-    border-color: #000;
+    border-color: #0d0d0d;
   }
 
   .sm\:border-white {
     border-color: #fff;
+  }
+
+  .sm\:border-brand {
+    border-color: #ff5900;
   }
 
   .sm\:border-gray-100 {
@@ -13003,11 +13099,15 @@ video {
   }
 
   .sm\:hover\:border-black:hover {
-    border-color: #000;
+    border-color: #0d0d0d;
   }
 
   .sm\:hover\:border-white:hover {
     border-color: #fff;
+  }
+
+  .sm\:hover\:border-brand:hover {
+    border-color: #ff5900;
   }
 
   .sm\:hover\:border-gray-100:hover {
@@ -13375,11 +13475,15 @@ video {
   }
 
   .sm\:focus\:border-black:focus {
-    border-color: #000;
+    border-color: #0d0d0d;
   }
 
   .sm\:focus\:border-white:focus {
     border-color: #fff;
+  }
+
+  .sm\:focus\:border-brand:focus {
+    border-color: #ff5900;
   }
 
   .sm\:focus\:border-gray-100:focus {
@@ -14345,7 +14449,11 @@ video {
   }
 
   .sm\:font-sans {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: Barlow, sans-serif;
+  }
+
+  .sm\:font-alt {
+    font-family: Poppins, sans-serif;
   }
 
   .sm\:font-serif {
@@ -16593,23 +16701,23 @@ video {
   }
 
   .sm\:placeholder-black::-webkit-input-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .sm\:placeholder-black::-moz-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .sm\:placeholder-black:-ms-input-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .sm\:placeholder-black::-ms-input-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .sm\:placeholder-black::placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .sm\:placeholder-white::-webkit-input-placeholder {
@@ -16630,6 +16738,26 @@ video {
 
   .sm\:placeholder-white::placeholder {
     color: #fff;
+  }
+
+  .sm\:placeholder-brand::-webkit-input-placeholder {
+    color: #ff5900;
+  }
+
+  .sm\:placeholder-brand::-moz-placeholder {
+    color: #ff5900;
+  }
+
+  .sm\:placeholder-brand:-ms-input-placeholder {
+    color: #ff5900;
+  }
+
+  .sm\:placeholder-brand::-ms-input-placeholder {
+    color: #ff5900;
+  }
+
+  .sm\:placeholder-brand::placeholder {
+    color: #ff5900;
   }
 
   .sm\:placeholder-gray-100::-webkit-input-placeholder {
@@ -18453,23 +18581,23 @@ video {
   }
 
   .sm\:focus\:placeholder-black:focus::-webkit-input-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .sm\:focus\:placeholder-black:focus::-moz-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .sm\:focus\:placeholder-black:focus:-ms-input-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .sm\:focus\:placeholder-black:focus::-ms-input-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .sm\:focus\:placeholder-black:focus::placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .sm\:focus\:placeholder-white:focus::-webkit-input-placeholder {
@@ -18490,6 +18618,26 @@ video {
 
   .sm\:focus\:placeholder-white:focus::placeholder {
     color: #fff;
+  }
+
+  .sm\:focus\:placeholder-brand:focus::-webkit-input-placeholder {
+    color: #ff5900;
+  }
+
+  .sm\:focus\:placeholder-brand:focus::-moz-placeholder {
+    color: #ff5900;
+  }
+
+  .sm\:focus\:placeholder-brand:focus:-ms-input-placeholder {
+    color: #ff5900;
+  }
+
+  .sm\:focus\:placeholder-brand:focus::-ms-input-placeholder {
+    color: #ff5900;
+  }
+
+  .sm\:focus\:placeholder-brand:focus::placeholder {
+    color: #ff5900;
   }
 
   .sm\:focus\:placeholder-gray-100:focus::-webkit-input-placeholder {
@@ -20536,11 +20684,15 @@ video {
   }
 
   .sm\:text-black {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .sm\:text-white {
     color: #fff;
+  }
+
+  .sm\:text-brand {
+    color: #ff5900;
   }
 
   .sm\:text-gray-100 {
@@ -20908,11 +21060,15 @@ video {
   }
 
   .sm\:hover\:text-black:hover {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .sm\:hover\:text-white:hover {
     color: #fff;
+  }
+
+  .sm\:hover\:text-brand:hover {
+    color: #ff5900;
   }
 
   .sm\:hover\:text-gray-100:hover {
@@ -21280,11 +21436,15 @@ video {
   }
 
   .sm\:focus\:text-black:focus {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .sm\:focus\:text-white:focus {
     color: #fff;
+  }
+
+  .sm\:focus\:text-brand:focus {
+    color: #ff5900;
   }
 
   .sm\:focus\:text-gray-100:focus {
@@ -22171,11 +22331,15 @@ video {
   }
 
   .md\:bg-black {
-    background-color: #000;
+    background-color: #0d0d0d;
   }
 
   .md\:bg-white {
     background-color: #fff;
+  }
+
+  .md\:bg-brand {
+    background-color: #ff5900;
   }
 
   .md\:bg-gray-100 {
@@ -22543,11 +22707,15 @@ video {
   }
 
   .md\:hover\:bg-black:hover {
-    background-color: #000;
+    background-color: #0d0d0d;
   }
 
   .md\:hover\:bg-white:hover {
     background-color: #fff;
+  }
+
+  .md\:hover\:bg-brand:hover {
+    background-color: #ff5900;
   }
 
   .md\:hover\:bg-gray-100:hover {
@@ -22915,11 +23083,15 @@ video {
   }
 
   .md\:focus\:bg-black:focus {
-    background-color: #000;
+    background-color: #0d0d0d;
   }
 
   .md\:focus\:bg-white:focus {
     background-color: #fff;
+  }
+
+  .md\:focus\:bg-brand:focus {
+    background-color: #ff5900;
   }
 
   .md\:focus\:bg-gray-100:focus {
@@ -23367,11 +23539,15 @@ video {
   }
 
   .md\:border-black {
-    border-color: #000;
+    border-color: #0d0d0d;
   }
 
   .md\:border-white {
     border-color: #fff;
+  }
+
+  .md\:border-brand {
+    border-color: #ff5900;
   }
 
   .md\:border-gray-100 {
@@ -23739,11 +23915,15 @@ video {
   }
 
   .md\:hover\:border-black:hover {
-    border-color: #000;
+    border-color: #0d0d0d;
   }
 
   .md\:hover\:border-white:hover {
     border-color: #fff;
+  }
+
+  .md\:hover\:border-brand:hover {
+    border-color: #ff5900;
   }
 
   .md\:hover\:border-gray-100:hover {
@@ -24111,11 +24291,15 @@ video {
   }
 
   .md\:focus\:border-black:focus {
-    border-color: #000;
+    border-color: #0d0d0d;
   }
 
   .md\:focus\:border-white:focus {
     border-color: #fff;
+  }
+
+  .md\:focus\:border-brand:focus {
+    border-color: #ff5900;
   }
 
   .md\:focus\:border-gray-100:focus {
@@ -25081,7 +25265,11 @@ video {
   }
 
   .md\:font-sans {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: Barlow, sans-serif;
+  }
+
+  .md\:font-alt {
+    font-family: Poppins, sans-serif;
   }
 
   .md\:font-serif {
@@ -27329,23 +27517,23 @@ video {
   }
 
   .md\:placeholder-black::-webkit-input-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .md\:placeholder-black::-moz-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .md\:placeholder-black:-ms-input-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .md\:placeholder-black::-ms-input-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .md\:placeholder-black::placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .md\:placeholder-white::-webkit-input-placeholder {
@@ -27366,6 +27554,26 @@ video {
 
   .md\:placeholder-white::placeholder {
     color: #fff;
+  }
+
+  .md\:placeholder-brand::-webkit-input-placeholder {
+    color: #ff5900;
+  }
+
+  .md\:placeholder-brand::-moz-placeholder {
+    color: #ff5900;
+  }
+
+  .md\:placeholder-brand:-ms-input-placeholder {
+    color: #ff5900;
+  }
+
+  .md\:placeholder-brand::-ms-input-placeholder {
+    color: #ff5900;
+  }
+
+  .md\:placeholder-brand::placeholder {
+    color: #ff5900;
   }
 
   .md\:placeholder-gray-100::-webkit-input-placeholder {
@@ -29189,23 +29397,23 @@ video {
   }
 
   .md\:focus\:placeholder-black:focus::-webkit-input-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .md\:focus\:placeholder-black:focus::-moz-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .md\:focus\:placeholder-black:focus:-ms-input-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .md\:focus\:placeholder-black:focus::-ms-input-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .md\:focus\:placeholder-black:focus::placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .md\:focus\:placeholder-white:focus::-webkit-input-placeholder {
@@ -29226,6 +29434,26 @@ video {
 
   .md\:focus\:placeholder-white:focus::placeholder {
     color: #fff;
+  }
+
+  .md\:focus\:placeholder-brand:focus::-webkit-input-placeholder {
+    color: #ff5900;
+  }
+
+  .md\:focus\:placeholder-brand:focus::-moz-placeholder {
+    color: #ff5900;
+  }
+
+  .md\:focus\:placeholder-brand:focus:-ms-input-placeholder {
+    color: #ff5900;
+  }
+
+  .md\:focus\:placeholder-brand:focus::-ms-input-placeholder {
+    color: #ff5900;
+  }
+
+  .md\:focus\:placeholder-brand:focus::placeholder {
+    color: #ff5900;
   }
 
   .md\:focus\:placeholder-gray-100:focus::-webkit-input-placeholder {
@@ -31272,11 +31500,15 @@ video {
   }
 
   .md\:text-black {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .md\:text-white {
     color: #fff;
+  }
+
+  .md\:text-brand {
+    color: #ff5900;
   }
 
   .md\:text-gray-100 {
@@ -31644,11 +31876,15 @@ video {
   }
 
   .md\:hover\:text-black:hover {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .md\:hover\:text-white:hover {
     color: #fff;
+  }
+
+  .md\:hover\:text-brand:hover {
+    color: #ff5900;
   }
 
   .md\:hover\:text-gray-100:hover {
@@ -32016,11 +32252,15 @@ video {
   }
 
   .md\:focus\:text-black:focus {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .md\:focus\:text-white:focus {
     color: #fff;
+  }
+
+  .md\:focus\:text-brand:focus {
+    color: #ff5900;
   }
 
   .md\:focus\:text-gray-100:focus {
@@ -32907,11 +33147,15 @@ video {
   }
 
   .lg\:bg-black {
-    background-color: #000;
+    background-color: #0d0d0d;
   }
 
   .lg\:bg-white {
     background-color: #fff;
+  }
+
+  .lg\:bg-brand {
+    background-color: #ff5900;
   }
 
   .lg\:bg-gray-100 {
@@ -33279,11 +33523,15 @@ video {
   }
 
   .lg\:hover\:bg-black:hover {
-    background-color: #000;
+    background-color: #0d0d0d;
   }
 
   .lg\:hover\:bg-white:hover {
     background-color: #fff;
+  }
+
+  .lg\:hover\:bg-brand:hover {
+    background-color: #ff5900;
   }
 
   .lg\:hover\:bg-gray-100:hover {
@@ -33651,11 +33899,15 @@ video {
   }
 
   .lg\:focus\:bg-black:focus {
-    background-color: #000;
+    background-color: #0d0d0d;
   }
 
   .lg\:focus\:bg-white:focus {
     background-color: #fff;
+  }
+
+  .lg\:focus\:bg-brand:focus {
+    background-color: #ff5900;
   }
 
   .lg\:focus\:bg-gray-100:focus {
@@ -34103,11 +34355,15 @@ video {
   }
 
   .lg\:border-black {
-    border-color: #000;
+    border-color: #0d0d0d;
   }
 
   .lg\:border-white {
     border-color: #fff;
+  }
+
+  .lg\:border-brand {
+    border-color: #ff5900;
   }
 
   .lg\:border-gray-100 {
@@ -34475,11 +34731,15 @@ video {
   }
 
   .lg\:hover\:border-black:hover {
-    border-color: #000;
+    border-color: #0d0d0d;
   }
 
   .lg\:hover\:border-white:hover {
     border-color: #fff;
+  }
+
+  .lg\:hover\:border-brand:hover {
+    border-color: #ff5900;
   }
 
   .lg\:hover\:border-gray-100:hover {
@@ -34847,11 +35107,15 @@ video {
   }
 
   .lg\:focus\:border-black:focus {
-    border-color: #000;
+    border-color: #0d0d0d;
   }
 
   .lg\:focus\:border-white:focus {
     border-color: #fff;
+  }
+
+  .lg\:focus\:border-brand:focus {
+    border-color: #ff5900;
   }
 
   .lg\:focus\:border-gray-100:focus {
@@ -35817,7 +36081,11 @@ video {
   }
 
   .lg\:font-sans {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: Barlow, sans-serif;
+  }
+
+  .lg\:font-alt {
+    font-family: Poppins, sans-serif;
   }
 
   .lg\:font-serif {
@@ -38065,23 +38333,23 @@ video {
   }
 
   .lg\:placeholder-black::-webkit-input-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .lg\:placeholder-black::-moz-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .lg\:placeholder-black:-ms-input-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .lg\:placeholder-black::-ms-input-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .lg\:placeholder-black::placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .lg\:placeholder-white::-webkit-input-placeholder {
@@ -38102,6 +38370,26 @@ video {
 
   .lg\:placeholder-white::placeholder {
     color: #fff;
+  }
+
+  .lg\:placeholder-brand::-webkit-input-placeholder {
+    color: #ff5900;
+  }
+
+  .lg\:placeholder-brand::-moz-placeholder {
+    color: #ff5900;
+  }
+
+  .lg\:placeholder-brand:-ms-input-placeholder {
+    color: #ff5900;
+  }
+
+  .lg\:placeholder-brand::-ms-input-placeholder {
+    color: #ff5900;
+  }
+
+  .lg\:placeholder-brand::placeholder {
+    color: #ff5900;
   }
 
   .lg\:placeholder-gray-100::-webkit-input-placeholder {
@@ -39925,23 +40213,23 @@ video {
   }
 
   .lg\:focus\:placeholder-black:focus::-webkit-input-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .lg\:focus\:placeholder-black:focus::-moz-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .lg\:focus\:placeholder-black:focus:-ms-input-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .lg\:focus\:placeholder-black:focus::-ms-input-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .lg\:focus\:placeholder-black:focus::placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .lg\:focus\:placeholder-white:focus::-webkit-input-placeholder {
@@ -39962,6 +40250,26 @@ video {
 
   .lg\:focus\:placeholder-white:focus::placeholder {
     color: #fff;
+  }
+
+  .lg\:focus\:placeholder-brand:focus::-webkit-input-placeholder {
+    color: #ff5900;
+  }
+
+  .lg\:focus\:placeholder-brand:focus::-moz-placeholder {
+    color: #ff5900;
+  }
+
+  .lg\:focus\:placeholder-brand:focus:-ms-input-placeholder {
+    color: #ff5900;
+  }
+
+  .lg\:focus\:placeholder-brand:focus::-ms-input-placeholder {
+    color: #ff5900;
+  }
+
+  .lg\:focus\:placeholder-brand:focus::placeholder {
+    color: #ff5900;
   }
 
   .lg\:focus\:placeholder-gray-100:focus::-webkit-input-placeholder {
@@ -42008,11 +42316,15 @@ video {
   }
 
   .lg\:text-black {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .lg\:text-white {
     color: #fff;
+  }
+
+  .lg\:text-brand {
+    color: #ff5900;
   }
 
   .lg\:text-gray-100 {
@@ -42380,11 +42692,15 @@ video {
   }
 
   .lg\:hover\:text-black:hover {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .lg\:hover\:text-white:hover {
     color: #fff;
+  }
+
+  .lg\:hover\:text-brand:hover {
+    color: #ff5900;
   }
 
   .lg\:hover\:text-gray-100:hover {
@@ -42752,11 +43068,15 @@ video {
   }
 
   .lg\:focus\:text-black:focus {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .lg\:focus\:text-white:focus {
     color: #fff;
+  }
+
+  .lg\:focus\:text-brand:focus {
+    color: #ff5900;
   }
 
   .lg\:focus\:text-gray-100:focus {
@@ -43643,11 +43963,15 @@ video {
   }
 
   .xl\:bg-black {
-    background-color: #000;
+    background-color: #0d0d0d;
   }
 
   .xl\:bg-white {
     background-color: #fff;
+  }
+
+  .xl\:bg-brand {
+    background-color: #ff5900;
   }
 
   .xl\:bg-gray-100 {
@@ -44015,11 +44339,15 @@ video {
   }
 
   .xl\:hover\:bg-black:hover {
-    background-color: #000;
+    background-color: #0d0d0d;
   }
 
   .xl\:hover\:bg-white:hover {
     background-color: #fff;
+  }
+
+  .xl\:hover\:bg-brand:hover {
+    background-color: #ff5900;
   }
 
   .xl\:hover\:bg-gray-100:hover {
@@ -44387,11 +44715,15 @@ video {
   }
 
   .xl\:focus\:bg-black:focus {
-    background-color: #000;
+    background-color: #0d0d0d;
   }
 
   .xl\:focus\:bg-white:focus {
     background-color: #fff;
+  }
+
+  .xl\:focus\:bg-brand:focus {
+    background-color: #ff5900;
   }
 
   .xl\:focus\:bg-gray-100:focus {
@@ -44839,11 +45171,15 @@ video {
   }
 
   .xl\:border-black {
-    border-color: #000;
+    border-color: #0d0d0d;
   }
 
   .xl\:border-white {
     border-color: #fff;
+  }
+
+  .xl\:border-brand {
+    border-color: #ff5900;
   }
 
   .xl\:border-gray-100 {
@@ -45211,11 +45547,15 @@ video {
   }
 
   .xl\:hover\:border-black:hover {
-    border-color: #000;
+    border-color: #0d0d0d;
   }
 
   .xl\:hover\:border-white:hover {
     border-color: #fff;
+  }
+
+  .xl\:hover\:border-brand:hover {
+    border-color: #ff5900;
   }
 
   .xl\:hover\:border-gray-100:hover {
@@ -45583,11 +45923,15 @@ video {
   }
 
   .xl\:focus\:border-black:focus {
-    border-color: #000;
+    border-color: #0d0d0d;
   }
 
   .xl\:focus\:border-white:focus {
     border-color: #fff;
+  }
+
+  .xl\:focus\:border-brand:focus {
+    border-color: #ff5900;
   }
 
   .xl\:focus\:border-gray-100:focus {
@@ -46553,7 +46897,11 @@ video {
   }
 
   .xl\:font-sans {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: Barlow, sans-serif;
+  }
+
+  .xl\:font-alt {
+    font-family: Poppins, sans-serif;
   }
 
   .xl\:font-serif {
@@ -48801,23 +49149,23 @@ video {
   }
 
   .xl\:placeholder-black::-webkit-input-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .xl\:placeholder-black::-moz-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .xl\:placeholder-black:-ms-input-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .xl\:placeholder-black::-ms-input-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .xl\:placeholder-black::placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .xl\:placeholder-white::-webkit-input-placeholder {
@@ -48838,6 +49186,26 @@ video {
 
   .xl\:placeholder-white::placeholder {
     color: #fff;
+  }
+
+  .xl\:placeholder-brand::-webkit-input-placeholder {
+    color: #ff5900;
+  }
+
+  .xl\:placeholder-brand::-moz-placeholder {
+    color: #ff5900;
+  }
+
+  .xl\:placeholder-brand:-ms-input-placeholder {
+    color: #ff5900;
+  }
+
+  .xl\:placeholder-brand::-ms-input-placeholder {
+    color: #ff5900;
+  }
+
+  .xl\:placeholder-brand::placeholder {
+    color: #ff5900;
   }
 
   .xl\:placeholder-gray-100::-webkit-input-placeholder {
@@ -50661,23 +51029,23 @@ video {
   }
 
   .xl\:focus\:placeholder-black:focus::-webkit-input-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .xl\:focus\:placeholder-black:focus::-moz-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .xl\:focus\:placeholder-black:focus:-ms-input-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .xl\:focus\:placeholder-black:focus::-ms-input-placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .xl\:focus\:placeholder-black:focus::placeholder {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .xl\:focus\:placeholder-white:focus::-webkit-input-placeholder {
@@ -50698,6 +51066,26 @@ video {
 
   .xl\:focus\:placeholder-white:focus::placeholder {
     color: #fff;
+  }
+
+  .xl\:focus\:placeholder-brand:focus::-webkit-input-placeholder {
+    color: #ff5900;
+  }
+
+  .xl\:focus\:placeholder-brand:focus::-moz-placeholder {
+    color: #ff5900;
+  }
+
+  .xl\:focus\:placeholder-brand:focus:-ms-input-placeholder {
+    color: #ff5900;
+  }
+
+  .xl\:focus\:placeholder-brand:focus::-ms-input-placeholder {
+    color: #ff5900;
+  }
+
+  .xl\:focus\:placeholder-brand:focus::placeholder {
+    color: #ff5900;
   }
 
   .xl\:focus\:placeholder-gray-100:focus::-webkit-input-placeholder {
@@ -52744,11 +53132,15 @@ video {
   }
 
   .xl\:text-black {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .xl\:text-white {
     color: #fff;
+  }
+
+  .xl\:text-brand {
+    color: #ff5900;
   }
 
   .xl\:text-gray-100 {
@@ -53116,11 +53508,15 @@ video {
   }
 
   .xl\:hover\:text-black:hover {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .xl\:hover\:text-white:hover {
     color: #fff;
+  }
+
+  .xl\:hover\:text-brand:hover {
+    color: #ff5900;
   }
 
   .xl\:hover\:text-gray-100:hover {
@@ -53488,11 +53884,15 @@ video {
   }
 
   .xl\:focus\:text-black:focus {
-    color: #000;
+    color: #0d0d0d;
   }
 
   .xl\:focus\:text-white:focus {
     color: #fff;
+  }
+
+  .xl\:focus\:text-brand:focus {
+    color: #ff5900;
   }
 
   .xl\:focus\:text-gray-100:focus {
