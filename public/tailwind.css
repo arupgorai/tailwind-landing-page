@@ -1,11 +1,14 @@
 @tailwind base;
 @tailwind components;
+
 .header {
   height: auto;
 }
+
 .header nav {
   background: rgba(0, 0, 0, 0.2);
 }
+
 .video-cta {
   height: auto;
 }
@@ -14,6 +17,7 @@
   .header {
     height: 762px;
   }
+
   .video-cta {
     height: 582px;
   }
@@ -22,6 +26,7 @@
 .btn-primary {
   @apply bg-brand text-white px-10 py-3 my-2 inline-block;
 }
+
 .btn-primary:hover {
   @apply bg-black;
 }
